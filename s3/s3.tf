@@ -1,6 +1,6 @@
 provider "aws" {
 }
-resource "aws_s3_bucket_acl" "example" {
+resource "aws_s3_bucket" "example" {
   bucket = "uniquebucketidname"
   acl    = "private"
 }
